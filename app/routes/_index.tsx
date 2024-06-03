@@ -7,6 +7,16 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+
+const Header = () => {
+  return (
+    <header>
+      <h1>My Blog</h1>
+      <img alt="andrew" src="https://pbs.twimg.com/profile_images/1629882819492077569/o5ME2qtN_400x400.jpg"></img>
+    </header>
+  );
+}
+
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
